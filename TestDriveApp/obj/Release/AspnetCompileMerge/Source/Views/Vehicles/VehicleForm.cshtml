@@ -1,0 +1,47 @@
+﻿@model TestDriveApp.ViewModels.VehicleFormViewModel
+@{
+    ViewBag.Title = Model.Heading;
+}
+
+<h2>@Model.Heading</h2>
+
+@using (Html.BeginForm("Save", "Vehicles"))
+{
+    @Html.ValidationSummary(true, "Please fix the following errors.")
+    <div class="form-group">
+        @Html.LabelFor(v => v.Make)
+        @Html.TextBoxFor(v => v.Make, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Make)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Model)
+        @Html.TextBoxFor(v => v.Model, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Model)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Year)
+        @Html.TextBoxFor(v => v.Year, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Year)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Transmission)
+        @Html.TextBoxFor(v => v.Transmission, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Transmission)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(v => v.HourlyRate)
+        @Html.TextBoxFor(v => v.HourlyRate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.HourlyRate)
+    </div>
+
+    @Html.HiddenFor(v => v.VehicleId)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval");
+}

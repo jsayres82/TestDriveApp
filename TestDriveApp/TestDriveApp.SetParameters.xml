@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="testdrive" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\jsayres\Documents\Visual Studio 2015\Projects\TestDriveApp\TestDriveApp\App_Data\aspnet-TestDriveApp-20171010094457.mdf&quot;;Integrated Security=True;Connect Timeout=30" />
+  <setParameter name="DefaultConnection_DatabasePublish-Web.config Connection String" value="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\jsayres\Documents\Visual Studio 2015\Projects\TestDriveApp\TestDriveApp\App_Data\aspnet-TestDriveApp-20171010094457.mdf&quot;;Integrated Security=True;Connect Timeout=30" />
+</parameters>

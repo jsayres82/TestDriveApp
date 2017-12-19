@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 8.5" name="Calendar">
+  <DataContextMoniker Name="/TestDriveDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2aad7819-1455-469f-a310-c053f449a0ff" absoluteBounds="11.375, 5.375, 1.875, 2.1554996744791666">
+      <DataClassMoniker Name="/TestDriveDataContext/Reservation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00f180ca-be9c-44be-9220-beb97243303e" absoluteBounds="11.39, 5.835, 1.8450000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70fb4ad2-fdc0-4127-bc50-e7404b1d5e0f" absoluteBounds="9.75, 1, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TestDriveDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c57ba981-e3fa-4125-becf-752b0833d710" absoluteBounds="9.765, 1.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ab909d8-e1d6-48c2-8ec7-fd2d94a6de36" absoluteBounds="6.5, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/TestDriveDataContext/AspNetUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28904ec0-5f57-4780-a161-345ae4d8a520" absoluteBounds="6.5150000000000006, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94eb4302-ede0-4508-8c27-60a42d40653a" absoluteBounds="7.375, 4.625, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/TestDriveDataContext/Vehicle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d81014b3-2670-4c18-b9fb-8da43b9d7614" absoluteBounds="7.3900000000000006, 5.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cba1bd71-423b-488e-bb66-afd6c0671890" absoluteBounds="2.875, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/TestDriveDataContext/Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="690389de-f0b9-4204-82e8-9b4245f91665" absoluteBounds="2.8899999999999997, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5845b6e8-f5b6-4590-8250-ec415bbc7d1f" absoluteBounds="12.75, 1.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/TestDriveDataContext/MembershipType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3afccd24-3d07-45aa-8211-a0d0fec861c6" absoluteBounds="12.765, 2.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.53125 : 2.9631982421875); (10.53125 : 4.96875); (10.1927058333333 : 4.96875 : JumpStart); (10.0260391666667 : 4.96875 : JumpEnd); (9.375 : 4.96875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TestDriveDataContext/Customer/Customer_Vehicle" />
+      <nodes>
+        <classShapeMoniker Id="70fb4ad2-fdc0-4127-bc50-e7404b1d5e0f" />
+        <classShapeMoniker Id="94eb4302-ede0-4508-8c27-60a42d40653a" />
+      </nodes>
+    </associationConnector>
+    <inheritanceConnector edgePoints="[(8.5 : 1.98159912109375); (9.75 : 1.98159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="7a7fe09e-e9ef-4b01-9ff3-bde95e827b62">
+      <nodes>
+        <classShapeMoniker Id="2ab909d8-e1d6-48c2-8ec7-fd2d94a6de36" />
+        <classShapeMoniker Id="70fb4ad2-fdc0-4127-bc50-e7404b1d5e0f" />
+      </nodes>
+    </inheritanceConnector>
+    <associationConnector edgePoints="[(10.1093725 : 2.9631982421875); (10.1093725 : 6.88345261393229); (11.375 : 6.88345261393229)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TestDriveDataContext/Customer/Customer_Reservation" />
+      <nodes>
+        <classShapeMoniker Id="70fb4ad2-fdc0-4127-bc50-e7404b1d5e0f" />
+        <classShapeMoniker Id="2aad7819-1455-469f-a310-c053f449a0ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.375 : 6.06672630696615); (10.0260391666667 : 6.06672630696615 : JumpStart); (10.1927058333333 : 6.06672630696615 : JumpEnd); (11.375 : 6.06672630696615)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TestDriveDataContext/Vehicle/Vehicle_Reservation" />
+      <nodes>
+        <classShapeMoniker Id="94eb4302-ede0-4508-8c27-60a42d40653a" />
+        <classShapeMoniker Id="2aad7819-1455-469f-a310-c053f449a0ff" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,204 @@
+﻿@model TestDriveApp.ViewModels.VehicleFormViewModel
+@{
+    ViewBag.Title = Model.Heading;
+}
+
+<h2>@Model.Heading</h2>
+
+@using (Html.BeginForm("Save", "Vehicles"))
+{
+    @Html.ValidationSummary(true, "Please fix the following errors.")
+    <div class="form-group">
+        @Html.LabelFor(v => v.Make)
+        @Html.TextBoxFor(v => v.Make, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Make)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Model)
+        @Html.TextBoxFor(v => v.Model, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Model)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Year)
+        @Html.TextBoxFor(v => v.Year, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Year)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(v => v.Transmission)
+        @Html.TextBoxFor(v => v.Transmission, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.Transmission)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(v => v.HourlyRate)
+        @Html.TextBoxFor(v => v.HourlyRate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(v => v.HourlyRate)
+    </div>
+
+    @Html.HiddenFor(v => v.VehicleId)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+<div ng-app="main" ng-controller="DemoCtrl">
+    <div style="float:left; width: 160px">
+        <daypilot-navigator id="navi" daypilot-config="navigatorConfig"></daypilot-navigator>
+    </div>
+    <div style="margin-left: 160px">
+        <div class="space">
+            <button ng-click="showDay()">Day</button>
+            <button ng-click="showWeek()">Week</button>
+        </div>
+        <daypilot-calendar id="day" daypilot-config="dayConfig" daypilot-events="events"></daypilot-calendar>
+        <daypilot-calendar id="week" daypilot-config="weekConfig" daypilot-events="events"></daypilot-calendar>
+    </div>
+</div>
+<script>
+    var app = angular.module('main', ['daypilot']).controller('DemoCtrl', function ($scope, $timeout, $http) {
+        $scope.events = [];
+
+        $scope.navigatorConfig = {
+            selectMode: "week",
+            showMonths: 0,
+            skipMonths: 0,
+            onTimeRangeSelected: function (args) {
+                $scope.weekConfig.startDate = args.day;
+                $scope.dayConfig.startDate = args.day;
+                loadEvents();
+            }
+        };
+
+        $scope.dayConfig = {
+            visible: false,
+            viewType: "Day",
+            onTimeRangeSelected: function (args) {
+                var params = {
+                    start: args.start.toString(),
+                    end: args.end.toString(),
+                    text: "New event"
+                };
+
+                $http.post('@Url.Action("Create", "Backend")', params).success(function (data) {
+                    $scope.events.push({
+                        start: args.start,
+                        end: args.end,
+                        text: "New event",
+                        id: data.id
+                    });
+                });
+            },
+            onEventMove: function (args) {
+                var params = {
+                    id: args.e.id(),
+                    newStart: args.newStart.toString(),
+                    newEnd: args.newEnd.toString()
+                };
+
+                $http.post('@Url.Action("Move", "Backend")', params);
+            },
+            onEventResize: function (args) {
+                var params = {
+                    id: args.e.id(),
+                    newStart: args.newStart.toString(),
+                    newEnd: args.newEnd.toString()
+                };
+
+                $http.post('@Url.Action("Move", "Backend")', params);
+            },
+            onEventClick: function (args) {
+                var modal = new DayPilot.Modal({
+                    onClosed: function (args) {
+                        if (args.result) {  // args.result is empty when modal is closed without submitting
+                            loadEvents();
+                        }
+                    }
+                });
+
+                modal.showUrl('@Url.Action("Edit", "Event")/' + args.e.id());
+            }
+        };
+
+        $scope.weekConfig = {
+            viewType: "Week",
+            onTimeRangeSelected: function (args) {
+                var params = {
+                    start: args.start.toString(),
+                    end: args.end.toString(),
+                    text: "New event"
+                };
+
+                $http.post('@Url.Action("Create", "Backend")', params).success(function (data) {
+                    $scope.events.push({
+                        start: args.start,
+                        end: args.end,
+                        text: "New event",
+                        id: data.id
+                    });
+                });
+            },
+            onEventMove: function (args) {
+                var params = {
+                    id: args.e.id(),
+                    newStart: args.newStart.toString(),
+                    newEnd: args.newEnd.toString()
+                };
+
+                $http.post('@Url.Action("Move", "Backend")', params);
+            },
+            onEventResize: function (args) {
+                var params = {
+                    id: args.e.id(),
+                    newStart: args.newStart.toString(),
+                    newEnd: args.newEnd.toString()
+                };
+
+                $http.post('@Url.Action("Move", "Backend")', params);
+            },
+            onEventClick: function (args) {
+                var modal = new DayPilot.Modal({
+                    onClosed: function (args) {
+                        if (args.result) {  // args.result is empty when modal is closed without submitting
+                            loadEvents();
+                        }
+                    }
+                });
+
+                modal.showUrl('@Url.Action("Edit", "Event")/' + args.e.id());
+            }
+        };
+
+        $scope.showDay = function () {
+            $scope.dayConfig.visible = true;
+            $scope.weekConfig.visible = false;
+            $scope.navigatorConfig.selectMode = "day";
+        };
+
+        $scope.showWeek = function () {
+            $scope.dayConfig.visible = false;
+            $scope.weekConfig.visible = true;
+            $scope.navigatorConfig.selectMode = "week";
+        };
+
+        loadEvents();
+
+        function loadEvents() {
+            // using $timeout to make sure all changes are applied before reading visibleStart() and visibleEnd()
+            $timeout(function () {
+                var params = {
+                    start: $scope.week.visibleStart().toString(),
+                    end: $scope.week.visibleEnd().toString()
+                }
+                $http.post('@Url.Action("Events", "Backend")', params).success(function (data) {
+                    $scope.events = data;
+                });
+            });
+        }
+    });
+</script>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval");
+}

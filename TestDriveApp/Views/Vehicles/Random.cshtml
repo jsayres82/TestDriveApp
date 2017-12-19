@@ -1,0 +1,26 @@
+﻿@model TestDriveApp.ViewModels.RandomTestVehicleViewModel
+
+@{
+    ViewBag.Title = "Random";
+}
+
+@{
+    var className = Model.Owner > 0 ? "popular" : null;
+}
+
+<h2 class="@className">@Model.Vehicle.Make</h2>
+
+@if (!Model.Vehicle.IsAvailable)
+{
+    <text>This vehicle isn't available.</text>
+}
+else
+{
+    <ul>      
+        <li>@Model.Vehicle.Make</li>
+        <li>@Model.Vehicle.Model</li>
+        <li>@Model.Vehicle.Year</li>
+        <li>@Model.Vehicle.Transmission</li>       
+    </ul>
+}
+

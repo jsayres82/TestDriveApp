@@ -1,0 +1,146 @@
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\ApplicationInsights.config
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\csc.exe
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\vbc.exe
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\TestDriveApp.dll.config
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\TestDriveApp.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\TestDriveApp.pdb
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlcese40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlceqp40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlceme40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlceer40EN.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlcecompact40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\sqlceca40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlcese40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlceqp40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlceme40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlceer40EN.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlcecompact40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\sqlceca40.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Antlr3.Runtime.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\AutoMapper.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.SqlServer.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.Web.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Newtonsoft.Json.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Owin.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Data.SqlServerCe.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Net.Http.Formatting.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Helpers.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Http.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Mvc.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Optimization.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Razor.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\WebGrease.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\AutoMapper.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.Web.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Net.Http.Formatting.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Http.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Helpers.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Mvc.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Optimization.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.Razor.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Antlr3.Runtime.pdb
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Newtonsoft.Json.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\EntityFramework.SqlServer.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.csprojResolveAssemblyReference.cache
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.Migrations.Initial.resources
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.csproj.GenerateResource.Cache
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.dll
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.pdb
+C:\testdrive\ApplicationInsights.config
+C:\testdrive\roslyn\csc.exe
+C:\testdrive\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\testdrive\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\testdrive\roslyn\Microsoft.CodeAnalysis.dll
+C:\testdrive\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\testdrive\roslyn\Microsoft.CSharp.Core.targets
+C:\testdrive\roslyn\Microsoft.VisualBasic.Core.targets
+C:\testdrive\roslyn\System.Collections.Immutable.dll
+C:\testdrive\roslyn\System.Reflection.Metadata.dll
+C:\testdrive\roslyn\vbc.exe
+C:\testdrive\roslyn\VBCSCompiler.exe
+C:\testdrive\roslyn\VBCSCompiler.exe.config
+C:\testdrive\TestDriveApp.dll.config
+C:\testdrive\TestDriveApp.dll
+C:\testdrive\TestDriveApp.pdb
+C:\testdrive\x86\sqlcese40.dll
+C:\testdrive\x86\sqlceqp40.dll
+C:\testdrive\x86\sqlceme40.dll
+C:\testdrive\x86\sqlceer40EN.dll
+C:\testdrive\x86\sqlcecompact40.dll
+C:\testdrive\x86\sqlceca40.dll
+C:\testdrive\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\testdrive\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\testdrive\amd64\sqlcese40.dll
+C:\testdrive\amd64\sqlceqp40.dll
+C:\testdrive\amd64\sqlceme40.dll
+C:\testdrive\amd64\sqlceer40EN.dll
+C:\testdrive\amd64\sqlcecompact40.dll
+C:\testdrive\amd64\sqlceca40.dll
+C:\testdrive\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\testdrive\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\testdrive\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\testdrive\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\jsayres\documents\visual studio 2015\Projects\TestDriveApp\TestDriveApp\obj\Release\TestDriveApp.Migrations.update.resources

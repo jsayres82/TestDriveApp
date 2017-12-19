@@ -1,0 +1,88 @@
+﻿@model IEnumerable<TestDriveApp.Models.Vehicle>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Vehicles</h2>
+<p>
+    <a class="btn btn-primary" href="@Url.Action("New", "Vehicles")">NEW VEHICLES</a>
+</p>
+
+<table id="vehicles" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@section scripts
+{
+    <script>
+        $(document)
+            .ready(function () {
+                $("#vehicles")
+                    .DataTable({
+                        ajax: {
+                            url: '@Url.Action("getmyvehicles", "vehicles")',
+                            contentType: 'application/json; charset=utf-8'
+                        },
+                        columns: [
+                            {
+                                data: "Make",
+                                render: function (data, type, vehicle) {
+                                    return "<a href='/Vehicles/Edit/?Id=" + vehicle.VehicleId + "'>" + data + "</a>";
+                                }
+                            },
+                            {
+                                data: "Model"
+                            },
+                            {
+                                data: "Year"
+                            },
+                            {
+                                data: "VehicleId",
+                                render: function (data) {
+                                    return "<button class='btn-link js-delete-vehicle' data-vehicle-id=" + data + ">Delete</button>";
+                                }
+                            }
+                        ]
+                    });
+
+
+                $("#vehicles")
+                    .on("click",
+                        ".js-delete-vehicle",
+                        function () {
+                            var button = $(this);
+
+                            bootbox.confirm("Are you sure you want to delete this movie?",
+                                function (result) {
+                                    if (result) {
+                                        $.ajax({
+                                            url: "/Vehicles/" + button.attr("data-vehicle-id"),
+                                            method: "DELETE"
+                                        })
+                                            .done(function () {
+                                                button.parents("tr")
+                                                    .fadeOut(function () {
+                                                        $(this).remove();
+                                                    });
+                                            })
+                                            .fail(function () {
+                                                bootbox.alert("Something went wrong");
+                                            });
+                                    }
+                                });
+
+                        });
+            });
+    </script>
+}
+
+

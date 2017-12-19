@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://localhost/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>10/10/2017 09:45:05</publishTime>
+    </File>
+    <File Include="App_Start/BundleConfig.cs">
+      <publishTime>10/10/2017 16:17:43</publishTime>
+    </File>
+    <File Include="App_Start/FilterConfig.cs">
+      <publishTime>10/10/2017 17:33:31</publishTime>
+    </File>
+    <File Include="App_Start/IdentityConfig.cs">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="App_Start/MappingProfile.cs">
+      <publishTime>10/10/2017 15:06:43</publishTime>
+    </File>
+    <File Include="App_Start/RouteConfig.cs">
+      <publishTime>10/10/2017 14:05:41</publishTime>
+    </File>
+    <File Include="App_Start/Startup.Auth.cs">
+      <publishTime>10/11/2017 00:39:44</publishTime>
+    </File>
+    <File Include="App_Start/WebApiConfig.cs">
+      <publishTime>10/10/2017 17:27:19</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceca40.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcecompact40.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceer40EN.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceme40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceqp40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcese40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 07:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 07:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>10/10/2017 09:45:05</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>10/11/2017 11:06:47</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>10/11/2017 11:06:47</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>10/26/2015 21:51:50</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 08:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 08:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServerCompact.dll">
+      <publishTime>03/02/2015 09:32:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 12:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 12:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 12:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 12:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 12:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 12:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 12:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>08/08/2012 18:02:00</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 03:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/TestDriveApp.dll">
+      <publishTime>10/11/2017 18:08:36</publishTime>
+    </File>
+    <File Include="bin/TestDriveApp.pdb">
+      <publishTime>10/11/2017 10:23:48</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceca40.dll">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcecompact40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceer40EN.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceme40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceqp40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcese40.dll">
+      <publishTime>10/10/2017 14:58:15</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap.css">
+      <publishTime>10/10/2017 14:17:37</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.dataTables.css">
+      <publishTime>10/10/2017 14:17:38</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.foundation.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.foundation.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.jqueryui.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/autoFill.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap4.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.bootstrap4.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.dataTables.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.foundation.css">
+      <publishTime>10/10/2017 14:17:39</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/buttons.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/colReorder.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/common.scss">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap4.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.bootstrap4.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.material.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.material.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.semanticui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.semanticui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.uikit.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/dataTables.uikit.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedColumns.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/fixedHeader.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/jquery.dataTables_themeroller.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/keyTable.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/mixins.scss">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/responsive.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/rowReorder.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/scroller.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.bootstrap.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.dataTables.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.dataTables.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.foundation.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.foundation.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.jqueryui.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/css/select.jqueryui.min.css">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/details_close.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/details_open.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/facebook.png">
+      <publishTime>10/11/2017 01:08:17</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/logo.png">
+      <publishTime>10/10/2017 23:12:59</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_asc.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_asc_disabled.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_both.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_desc.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/images/sort_desc_disabled.png">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/DataTables/swf/flashExport.swf">
+      <publishTime>10/10/2017 14:17:40</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>10/10/2017 23:34:28</publishTime>
+    </File>
+    <File Include="Controllers/AccountController.cs">
+      <publishTime>10/10/2017 23:04:58</publishTime>
+    </File>
+    <File Include="Controllers/Api/CustomersController.cs">
+      <publishTime>10/10/2017 18:21:18</publishTime>
+    </File>
+    <File Include="Controllers/Api/NewTestDriveController.cs">
+      <publishTime>10/10/2017 18:09:35</publishTime>
+    </File>
+    <File Include="Controllers/Api/TestVehicleController.cs">
+      <publishTime>10/10/2017 15:57:20</publishTime>
+    </File>
+    <File Include="Controllers/CustomersController.cs">
+      <publishTime>10/10/2017 22:52:07</publishTime>
+    </File>
+    <File Include="Controllers/HomeController.cs">
+      <publishTime>10/10/2017 09:44:39</publishTime>
+    </File>
+    <File Include="Controllers/ManageController.cs">
+      <publishTime>10/10/2017 18:11:47</publishTime>
+    </File>
+    <File Include="Controllers/NewTestDriveController.cs">
+      <publishTime>10/10/2017 15:09:55</publishTime>
+    </File>
+    <File Include="Controllers/TestVehiclesController.cs">
+      <publishTime>10/11/2017 01:31:42</publishTime>
+    </File>
+    <File Include="Dtos/CustomerDto.cs">
+      <publishTime>10/10/2017 19:20:15</publishTime>
+    </File>
+    <File Include="Dtos/MembershipTypeDto.cs">
+      <publishTime>10/10/2017 12:43:29</publishTime>
+    </File>
+    <File Include="Dtos/TestDriveDto.cs">
+      <publishTime>10/10/2017 17:06:24</publishTime>
+    </File>
+    <File Include="Dtos/TestVehicleDto.cs">
+      <publishTime>10/10/2017 17:07:32</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/10/2017 09:44:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Global.asax.cs">
+      <publishTime>10/10/2017 17:23:30</publishTime>
+    </File>
+    <File Include="Migrations/201710101356112_InitialCreate.cs">
+      <publishTime>10/10/2017 17:08:39</publishTime>
+    </File>
+    <File Include="Migrations/201710101356112_InitialCreate.Designer.cs">
+      <publishTime>10/10/2017 17:08:39</publishTime>
+    </File>
+    <File Include="Migrations/201710101356112_InitialCreate.resx">
+      <publishTime>10/10/2017 17:08:39</publishTime>
+    </File>
+    <File Include="Migrations/201710102113028_Justin.cs">
+      <publishTime>10/10/2017 17:13:02</publishTime>
+    </File>
+    <File Include="Migrations/201710102113028_Justin.Designer.cs">
+      <publishTime>10/10/2017 17:13:03</publishTime>
+    </File>
+    <File Include="Migrations/201710102113028_Justin.resx">
+      <publishTime>10/10/2017 17:13:03</publishTime>
+    </File>
+    <File Include="Migrations/201710102117004_Initial.cs">
+      <publishTime>10/10/2017 17:17:00</publishTime>
+    </File>
+    <File Include="Migrations/201710102117004_Initial.Designer.cs">
+      <publishTime>10/10/2017 17:17:00</publishTime>
+    </File>
+    <File Include="Migrations/201710102117004_Initial.resx">
+      <publishTime>10/10/2017 17:17:00</publishTime>
+    </File>
+    <File Include="Migrations/201710102238046_CustomerDboUpdater.cs">
+      <publishTime>10/10/2017 18:38:04</publishTime>
+    </File>
+    <File Include="Migrations/201710102238046_CustomerDboUpdater.Designer.cs">
+      <publishTime>10/10/2017 18:38:04</publishTime>
+    </File>
+    <File Include="Migrations/201710102238046_CustomerDboUpdater.resx">
+      <publishTime>10/10/2017 18:38:04</publishTime>
+    </File>
+    <File Include="Migrations/201710102316284_RemoveRequiredFromAppUserId.cs">
+      <publishTime>10/10/2017 19:16:28</publishTime>
+    </File>
+    <File Include="Migrations/201710102316284_RemoveRequiredFromAppUserId.Designer.cs">
+      <publishTime>10/10/2017 19:16:28</publishTime>
+    </File>
+    <File Include="Migrations/201710102316284_RemoveRequiredFromAppUserId.resx">
+      <publishTime>10/10/2017 19:16:28</publishTime>
+    </File>
+    <File Include="Migrations/201710102327260_removerequired.cs">
+      <publishTime>10/10/2017 19:27:26</publishTime>
+    </File>
+    <File Include="Migrations/201710102327260_removerequired.Designer.cs">
+      <publishTime>10/10/2017 19:27:26</publishTime>
+    </File>
+    <File Include="Migrations/201710102327260_removerequired.resx">
+      <publishTime>10/10/2017 19:27:26</publishTime>
+    </File>
+    <File Include="Migrations/Configuration.cs">
+      <publishTime>10/10/2017 17:08:39</publishTime>
+    </File>
+    <File Include="Models/AccountViewModels.cs">
+      <publishTime>10/11/2017 00:31:54</publishTime>
+    </File>
+    <File Include="Models/ApplicationDbContext.cs">
+      <publishTime>10/10/2017 15:10:18</publishTime>
+    </File>
+    <File Include="Models/Customer.cs">
+      <publishTime>10/10/2017 19:19:24</publishTime>
+    </File>
+    <File Include="Models/IdentityModels.cs">
+      <publishTime>10/10/2017 15:10:27</publishTime>
+    </File>
+    <File Include="Models/ManageViewModels.cs">
+      <publishTime>10/10/2017 18:11:39</publishTime>
+    </File>
+    <File Include="Models/MembershipType.cs">
+      <publishTime>10/10/2017 10:36:51</publishTime>
+    </File>
+    <File Include="Models/Min18YearsIfAMember.cs">
+      <publishTime>10/10/2017 11:08:14</publishTime>
+    </File>
+    <File Include="Models/RoleName.cs">
+      <publishTime>10/10/2017 10:45:45</publishTime>
+    </File>
+    <File Include="Models/TestDrive.cs">
+      <publishTime>10/10/2017 17:06:08</publishTime>
+    </File>
+    <File Include="Models/TestVehicle.cs">
+      <publishTime>10/10/2017 17:08:03</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/10/2017 14:58:16</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/11/2017 18:08:38</publishTime>
+    </File>
+    <File Include="Project_Readme.html">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Properties/AssemblyInfo.cs">
+      <publishTime>10/10/2017 09:44:39</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/testdrive.pubxml">
+      <publishTime>10/11/2017 10:21:35</publishTime>
+    </File>
+    <File Include="roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="Scripts/bloodhound.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/bloodhound.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/bootbox.js">
+      <publishTime>10/10/2017 14:15:42</publishTime>
+    </File>
+    <File Include="Scripts/bootbox.min.js">
+      <publishTime>10/10/2017 14:15:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/10/2017 14:15:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.bootstrap.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.foundation.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.foundation.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.jqueryui.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/autoFill.jqueryui.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap4.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.bootstrap4.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.colVis.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.colVis.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.flash.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.flash.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.foundation.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.foundation.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.html5.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.html5.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.jqueryui.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.jqueryui.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.print.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/buttons.print.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.autoFill.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.autoFill.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap4.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.bootstrap4.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.buttons.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.buttons.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.colReorder.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.colReorder.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedColumns.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedColumns.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedHeader.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.fixedHeader.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.foundation.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.foundation.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.jqueryui.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.jqueryui.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.keyTable.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.keyTable.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.material.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.material.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.responsive.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.responsive.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowReorder.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.rowReorder.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.scroller.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.scroller.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.select.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.select.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.semanticui.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.semanticui.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.uikit.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/dataTables.uikit.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/jquery.dataTables.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/jquery.dataTables.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.bootstrap.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.foundation.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.foundation.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.jqueryui.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/DataTables/responsive.jqueryui.min.js">
+      <publishTime>10/10/2017 14:15:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate-vsdoc.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/toastr.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/typeahead.bundle.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/typeahead.bundle.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/typeahead.jquery.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/typeahead.jquery.min.js">
+      <publishTime>10/10/2017 14:15:46</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/10/2017 14:16:13</publishTime>
+    </File>
+    <File Include="Startup.cs">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="TestDriveApp.csproj">
+      <publishTime>10/11/2017 10:22:59</publishTime>
+    </File>
+    <File Include="TestDriveApp.csproj.user">
+      <publishTime>10/11/2017 10:22:59</publishTime>
+    </File>
+    <File Include="ViewModels/CustomerFormViewModel.cs">
+      <publishTime>10/10/2017 22:39:10</publishTime>
+    </File>
+    <File Include="ViewModels/RandomTestVehicleViewModel.cs">
+      <publishTime>10/10/2017 15:12:07</publishTime>
+    </File>
+    <File Include="ViewModels/TestVehicleFormViewModel.cs">
+      <publishTime>10/10/2017 17:08:02</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>10/10/2017 17:41:28</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>10/11/2017 01:21:10</publishTime>
+    </File>
+    <File Include="Views/Customers/CustomerForm.cshtml">
+      <publishTime>10/11/2017 11:35:31</publishTime>
+    </File>
+    <File Include="Views/Customers/Details.cshtml">
+      <publishTime>10/10/2017 18:37:10</publishTime>
+    </File>
+    <File Include="Views/Customers/Index.cshtml">
+      <publishTime>10/11/2017 12:04:44</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>10/11/2017 13:24:59</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>10/10/2017 22:53:21</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Manage/UpdateCustomerInfo.cshtml">
+      <publishTime>10/10/2017 17:53:33</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/10/2017 23:42:34</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>10/10/2017 09:44:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_NavBar.cshtml">
+      <publishTime>10/10/2017 19:57:50</publishTime>
+    </File>
+    <File Include="Views/TestDrives/New.cshtml">
+      <publishTime>10/11/2017 00:00:03</publishTime>
+    </File>
+    <File Include="Views/TestVehicles/Details.cshtml">
+      <publishTime>10/10/2017 23:59:05</publishTime>
+    </File>
+    <File Include="Views/TestVehicles/List.cshtml">
+      <publishTime>10/11/2017 01:34:45</publishTime>
+    </File>
+    <File Include="Views/TestVehicles/Random.cshtml">
+      <publishTime>10/10/2017 15:36:55</publishTime>
+    </File>
+    <File Include="Views/TestVehicles/ReadOnlyList.cshtml">
+      <publishTime>10/11/2017 00:08:16</publishTime>
+    </File>
+    <File Include="Views/TestVehicles/TestVehicleForm.cshtml">
+      <publishTime>10/10/2017 15:53:46</publishTime>
+    </File>
+    <File Include="Views/Vehicles/Details.cshtml">
+      <publishTime>10/11/2017 13:14:19</publishTime>
+    </File>
+    <File Include="Views/Vehicles/List.cshtml">
+      <publishTime>10/11/2017 13:24:57</publishTime>
+    </File>
+    <File Include="Views/Vehicles/Random.cshtml">
+      <publishTime>10/10/2017 15:36:55</publishTime>
+    </File>
+    <File Include="Views/Vehicles/ReadOnlyList.cshtml">
+      <publishTime>10/11/2017 13:34:07</publishTime>
+    </File>
+    <File Include="Views/Vehicles/VehicleForm.cshtml">
+      <publishTime>10/11/2017 13:20:43</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/11/2017 11:06:33</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>10/10/2017 09:44:38</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>10/10/2017 14:58:10</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlceca40.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlcecompact40.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlceer40EN.dll">
+      <publishTime>10/10/2017 14:58:11</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlceme40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlceqp40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/amd64/sqlcese40.dll">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>10/10/2017 14:58:12</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlceca40.dll">
+      <publishTime>10/10/2017 14:58:13</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlcecompact40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlceer40EN.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlceme40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlceqp40.dll">
+      <publishTime>10/10/2017 14:58:14</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/x86/sqlcese40.dll">
+      <publishTime>10/10/2017 14:58:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿@model TestDriveApp.Models.Vehicle
+@{
+    ViewBag.Title = Model.OwnerId;
+}
+<h2>@Model.OwnerId</h2>
+<ul>
+    <li>Model: @Model.Model</li>
+    <li>Make: @Model.Make</li>
+    <li>Year: @Model.Year</li>
+    <li>Transmission: @Model.Transmission</li>
+</ul>
